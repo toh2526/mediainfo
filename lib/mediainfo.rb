@@ -239,6 +239,8 @@ class Mediainfo
 
     mediainfo_int_reader :resolution
 
+    mediainfo_int_reader :rotation
+
     mediainfo_attr_reader :colorimetry
     alias_method :colorspace, :colorimetry
 
